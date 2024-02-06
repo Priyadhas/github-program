@@ -3,6 +3,7 @@ public class stringreverse {
     public static void main(String[] args)
     {
         Scanner d1=new Scanner(System.in);
+        System.out.println("Enter the string to be reversed");
        
         String s=d1.nextLine() ;
         String n="";
