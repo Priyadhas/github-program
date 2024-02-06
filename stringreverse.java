@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class stringreverse {
     public static void main(String[] args)
     {
-        Scanner d1=new Scanner(System.in);
+        Scanner w1=new Scanner(System.in);
         System.out.println("Enter the string to be reversed");
        
-        String s=d1.nextLine() ;
+        String s=w1.nextLine() ;
         String n="";
         char ch;
        
@@ -20,8 +20,6 @@ public class stringreverse {
       System.out.println("Reversed : "+ n);
     }
 }
- 
 
-    
-    
+  
 
