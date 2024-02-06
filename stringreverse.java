@@ -5,17 +5,17 @@ public class stringreverse {
         Scanner w1=new Scanner(System.in);
         System.out.println("Enter the string to be reversed");
        
-        String s=w1.nextLine() ;
+        String str=w1.nextLine() ;
         String n="";
-        char ch;
+        char rr;
        
-      System.out.print("Original : ");
-      System.out.println(s); 
+      System.out.print("Original : "+str);
+      
        
-      for (int i=0; i<s.length(); i++)
+      for (int i=0; i<str.length(); i++)
       {
-        ch= s.charAt(i); 
-        n= ch+n; 
+        rr= str.charAt(i); 
+        n= rr+n; 
       }
       System.out.println("Reversed : "+ n);
     }
